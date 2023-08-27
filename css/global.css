@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 3fr 1fr;
+    grid-template-areas: 
+    "logo navbar"
+    "sidebar main"
+
+
+}
+.logo{
+    margin-top:20px ;
+    display: flex;
+    grid-area: logo;
+}
+.menu{
+    margin: 0px 30px;
+}
+.search{
+    margin-top:20px ;
+    display: flex;
+    height: 100%;
+}
+.search-left nav{
+    margin-left: 600px;
+}
+.search-right{
+    margin-left: 730px;
+}
+
+aside{
+    grid-area: sidebar;
+    
+}
+aside div{
+    margin: 20px;
+}
+main{
+    background-color: #f9f9f9;
+    grid-area: main;
+}
+.container-videos, .logo-dio{
+    display: flex;
+}
+iframe{
+    width: 280px;
+    height: 150px;
+    margin: 20px;
+}
+.logo-dio-img img{
+    margin: 15px;
+    width: 50px;
+}
+.logo-dio-top h3 span{
+    font-size: 12px;
+}
+
+
